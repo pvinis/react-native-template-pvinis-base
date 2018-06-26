@@ -4,6 +4,9 @@
  * @flow
  */
 
+
+ // this is a test
+
 import React, { Component } from 'react';
 import {
   Platform,
