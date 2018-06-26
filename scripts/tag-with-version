@@ -1,0 +1,1 @@
+bundle exec fastlane tag_with_version
