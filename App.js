@@ -7,6 +7,7 @@
 
  // this is a test
 
+ // new test
 import React, { Component } from 'react';
 import {
   Platform,
