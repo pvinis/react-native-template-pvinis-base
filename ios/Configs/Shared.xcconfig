@@ -1,0 +1,23 @@
+//
+//  Shared.xcconfig
+//  HelloWorld
+//
+//  Created by Pavlos Vinieratos on 26/06/2018.
+//  Copyright © 2018 pvin.is. All rights reserved.
+//
+
+// versioning
+VERSION_STRING = 1.0.0
+BUILD_NUMBER = 1
+
+// suffixes
+// use `$()` in the beginning to protect the whitespace after it.
+NAME_SUFFIX = $() $(SHORT_SUFFIX)
+APPICON_SUFFIX = $() $(LONG_SUFFIX)
+
+// build settings
+PRODUCT_BUNDLE_IDENTIFIER = com.mycujoo.mobile
+TARGETED_DEVICE_FAMILY = 1,2
+IPHONEOS_DEPLOYMENT_TARGET = 9.0
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon$(APPICON_SUFFIX)
+INFOPLIST_FILE = $(SRCROOT)/HelloWorld/Info.plist

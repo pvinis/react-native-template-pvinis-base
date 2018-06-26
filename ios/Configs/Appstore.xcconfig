@@ -1,0 +1,16 @@
+//
+//  Appstore.xcconfig
+//  HelloWorld
+//
+//  Created by Pavlos Vinieratos on 26/06/2018.
+//  Copyright © 2018 pvin.is. All rights reserved.
+//
+
+#include "Shared.xcconfig"
+
+// suffixes
+LONG_SUFFIX =
+SHORT_SUFFIX =
+
+// keys
+CODE_PUSH_KEY = other-key

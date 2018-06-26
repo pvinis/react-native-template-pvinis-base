@@ -24,6 +24,38 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		AF8E103020E2D33C00F8C518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		AF8E103120E2D33C00F8C518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		AF8E103320E2D33C00F8C518 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		AF8E103420E2D33C00F8C518 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		AF8E103520E2D33C00F8C518 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		AF8E103620E2D33C00F8C518 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		AF8E103720E2D33C00F8C518 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		AF8E103820E2D33C00F8C518 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		AF8E103920E2D33C00F8C518 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		AF8E103A20E2D33C00F8C518 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		AF8E103B20E2D33C00F8C518 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		AF8E103C20E2D33C00F8C518 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		AF8E103D20E2D33C00F8C518 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		AF8E103E20E2D33C00F8C518 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		AF8E104020E2D33C00F8C518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		AF8E104120E2D33C00F8C518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		AF8E106F20E2D35200F8C518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		AF8E107020E2D35200F8C518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		AF8E107220E2D35200F8C518 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		AF8E107320E2D35200F8C518 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		AF8E107420E2D35200F8C518 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		AF8E107520E2D35200F8C518 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		AF8E107620E2D35200F8C518 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		AF8E107720E2D35200F8C518 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		AF8E107820E2D35200F8C518 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		AF8E107920E2D35200F8C518 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		AF8E107A20E2D35200F8C518 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		AF8E107B20E2D35200F8C518 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		AF8E107C20E2D35200F8C518 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		AF8E107D20E2D35200F8C518 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		AF8E107F20E2D35200F8C518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		AF8E108020E2D35200F8C518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		AFB22E1E20E2BC2A00AEBC10 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 /* End PBXBuildFile section */
 
@@ -321,6 +353,14 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		AF8E0FEB20E2CF0900F8C518 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		AF8E0FEC20E2CF5C00F8C518 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		AF8E0FED20E2CF6800F8C518 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		AF8E0FEE20E2CF7700F8C518 /* Appstore.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Appstore.xcconfig; sourceTree = "<group>"; };
+		AF8E0FEF20E2CF8200F8C518 /* Internal.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Internal.xcconfig; sourceTree = "<group>"; };
+		AF8E0FF020E2CF9500F8C518 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		AF8E104620E2D33C00F8C518 /* HelloWorld Internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorld Internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8E108520E2D35200F8C518 /* HelloWorld Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorld Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +388,44 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8E103220E2D33C00F8C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E103320E2D33C00F8C518 /* libRCTBlob.a in Frameworks */,
+				AF8E103420E2D33C00F8C518 /* libRCTAnimation.a in Frameworks */,
+				AF8E103520E2D33C00F8C518 /* libReact.a in Frameworks */,
+				AF8E103620E2D33C00F8C518 /* libRCTActionSheet.a in Frameworks */,
+				AF8E103720E2D33C00F8C518 /* libRCTGeolocation.a in Frameworks */,
+				AF8E103820E2D33C00F8C518 /* libRCTImage.a in Frameworks */,
+				AF8E103920E2D33C00F8C518 /* libRCTLinking.a in Frameworks */,
+				AF8E103A20E2D33C00F8C518 /* libRCTNetwork.a in Frameworks */,
+				AF8E103B20E2D33C00F8C518 /* libRCTSettings.a in Frameworks */,
+				AF8E103C20E2D33C00F8C518 /* libRCTText.a in Frameworks */,
+				AF8E103D20E2D33C00F8C518 /* libRCTVibration.a in Frameworks */,
+				AF8E103E20E2D33C00F8C518 /* libRCTWebSocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8E107120E2D35200F8C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E107220E2D35200F8C518 /* libRCTBlob.a in Frameworks */,
+				AF8E107320E2D35200F8C518 /* libRCTAnimation.a in Frameworks */,
+				AF8E107420E2D35200F8C518 /* libReact.a in Frameworks */,
+				AF8E107520E2D35200F8C518 /* libRCTActionSheet.a in Frameworks */,
+				AF8E107620E2D35200F8C518 /* libRCTGeolocation.a in Frameworks */,
+				AF8E107720E2D35200F8C518 /* libRCTImage.a in Frameworks */,
+				AF8E107820E2D35200F8C518 /* libRCTLinking.a in Frameworks */,
+				AF8E107920E2D35200F8C518 /* libRCTNetwork.a in Frameworks */,
+				AF8E107A20E2D35200F8C518 /* libRCTSettings.a in Frameworks */,
+				AF8E107B20E2D35200F8C518 /* libRCTText.a in Frameworks */,
+				AF8E107C20E2D35200F8C518 /* libRCTVibration.a in Frameworks */,
+				AF8E107D20E2D35200F8C518 /* libRCTWebSocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +516,7 @@
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				AF8E0FEA20E2CEED00F8C518 /* Configs */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -528,10 +607,10 @@
 			isa = PBXGroup;
 			children = (
 				13B07FAE1A68108700A75B9A /* HelloWorld */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* HelloWorldTests */,
-				83CBBA001A601CBA00E9B192 /* Products */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				83CBBA001A601CBA00E9B192 /* Products */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -543,6 +622,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* HelloWorld.app */,
 				00E356EE1AD99517003FC87E /* HelloWorldTests.xctest */,
+				AF8E104620E2D33C00F8C518 /* HelloWorld Internal.app */,
+				AF8E108520E2D35200F8C518 /* HelloWorld Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -554,6 +635,19 @@
 				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8E0FEA20E2CEED00F8C518 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				AF8E0FEB20E2CF0900F8C518 /* Shared.xcconfig */,
+				AF8E0FEC20E2CF5C00F8C518 /* Debug.xcconfig */,
+				AF8E0FED20E2CF6800F8C518 /* Release.xcconfig */,
+				AF8E0FEE20E2CF7700F8C518 /* Appstore.xcconfig */,
+				AF8E0FEF20E2CF8200F8C518 /* Internal.xcconfig */,
+				AF8E0FF020E2CF9500F8C518 /* Dev.xcconfig */,
+			);
+			path = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -595,6 +689,42 @@
 			productReference = 13B07F961A680F5B00A75B9A /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AF8E102E20E2D33C00F8C518 /* HelloWorld Internal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8E104320E2D33C00F8C518 /* Build configuration list for PBXNativeTarget "HelloWorld Internal" */;
+			buildPhases = (
+				AF8E102F20E2D33C00F8C518 /* Sources */,
+				AF8E103220E2D33C00F8C518 /* Frameworks */,
+				AF8E103F20E2D33C00F8C518 /* Resources */,
+				AF8E104220E2D33C00F8C518 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloWorld Internal";
+			productName = "Hello World";
+			productReference = AF8E104620E2D33C00F8C518 /* HelloWorld Internal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF8E106D20E2D35200F8C518 /* HelloWorld Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8E108220E2D35200F8C518 /* Build configuration list for PBXNativeTarget "HelloWorld Dev" */;
+			buildPhases = (
+				AF8E106E20E2D35200F8C518 /* Sources */,
+				AF8E107120E2D35200F8C518 /* Frameworks */,
+				AF8E107E20E2D35200F8C518 /* Resources */,
+				AF8E108120E2D35200F8C518 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloWorld Dev";
+			productName = "Hello World";
+			productReference = AF8E108520E2D35200F8C518 /* HelloWorld Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -609,6 +739,12 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = CAG2W9M777;
+					};
+					AF8E102E20E2D33C00F8C518 = {
+						DevelopmentTeam = CAG2W9M777;
+					};
+					AF8E106D20E2D35200F8C518 = {
 						DevelopmentTeam = CAG2W9M777;
 					};
 				};
@@ -677,6 +813,8 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* HelloWorld */,
+				AF8E102E20E2D33C00F8C518 /* HelloWorld Internal */,
+				AF8E106D20E2D35200F8C518 /* HelloWorld Dev */,
 				00E356ED1AD99517003FC87E /* HelloWorldTests */,
 			);
 		};
@@ -961,10 +1099,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF8E103F20E2D33C00F8C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E104020E2D33C00F8C518 /* Images.xcassets in Resources */,
+				AF8E104120E2D33C00F8C518 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8E107E20E2D35200F8C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E107F20E2D35200F8C518 /* Images.xcassets in Resources */,
+				AF8E108020E2D35200F8C518 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		AF8E104220E2D33C00F8C518 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		AF8E108120E2D35200F8C518 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -995,6 +1179,24 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8E102F20E2D33C00F8C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E103020E2D33C00F8C518 /* AppDelegate.m in Sources */,
+				AF8E103120E2D33C00F8C518 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8E106E20E2D35200F8C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E106F20E2D35200F8C518 /* AppDelegate.m in Sources */,
+				AF8E107020E2D35200F8C518 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,45 +1264,38 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E0FEE20E2CF7700F8C518 /* Appstore.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = CAG2W9M777;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = is.pvin.HelloWorld;
 				PRODUCT_NAME = HelloWorld;
-				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E0FEE20E2CF7700F8C518 /* Appstore.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CAG2W9M777;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = is.pvin.HelloWorld;
 				PRODUCT_NAME = HelloWorld;
-				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E0FEC20E2CF5C00F8C518 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1128,6 +1323,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1145,15 +1341,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		83CBBA211A601CBA00E9B192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E0FED20E2CF6800F8C518 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1181,6 +1378,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1191,10 +1389,76 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		AF8E104420E2D33C00F8C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E0FEF20E2CF8200F8C518 /* Internal.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = CAG2W9M777;
+				INFOPLIST_FILE = asd;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF8E104520E2D33C00F8C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E0FEF20E2CF8200F8C518 /* Internal.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CAG2W9M777;
+				INFOPLIST_FILE = asd;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF8E108320E2D35200F8C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E0FF020E2CF9500F8C518 /* Dev.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = CAG2W9M777;
+				INFOPLIST_FILE = sxcd;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF8E108420E2D35200F8C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E0FF020E2CF9500F8C518 /* Dev.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CAG2W9M777;
+				INFOPLIST_FILE = sxcd;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -1224,6 +1488,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8E104320E2D33C00F8C518 /* Build configuration list for PBXNativeTarget "HelloWorld Internal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8E104420E2D33C00F8C518 /* Debug */,
+				AF8E104520E2D33C00F8C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8E108220E2D35200F8C518 /* Build configuration list for PBXNativeTarget "HelloWorld Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8E108320E2D35200F8C518 /* Debug */,
+				AF8E108420E2D35200F8C518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
